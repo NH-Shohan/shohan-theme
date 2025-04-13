@@ -64,20 +64,6 @@ Customize the theme through the extension settings:
 - **`shohanTheme.enableBackgroundImage`**: Enable/disable the background image
 - **`shohanTheme.backgroundOpacity`**: Control the opacity of the background image (0.01-0.2)
 
-## Screenshots
-
-### Shohan Dark Theme
-
-![Shohan Dark Theme](https://i.ibb.co/vZhHQ69/phenix.png)
-
-### Shohan Light Theme
-
-![Shohan Light Theme](https://i.ibb.co/vZhHQ69/phenix.png)
-
-### Shohan Ocean Theme
-
-![Shohan Ocean Theme](https://i.ibb.co/vZhHQ69/phenix.png)
-
 ## Contributing
 
 Found a bug or have a suggestion? Please [open an issue](https://github.com/NH-Shohan/ShohanTheme/issues) on GitHub.
