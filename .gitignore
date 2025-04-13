@@ -1,2 +1,9 @@
 .vscode
 shohantheme-*.vsix
+node_modules/**
+!node_modules/vscode-jsonrpc/**
+!node_modules/vscode-languageserver-types/**
+!node_modules/vscode-languageserver-protocol/**
+!node_modules/vscode-languageclient/**
+.git
+.DS_Store

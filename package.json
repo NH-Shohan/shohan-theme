@@ -1,14 +1,26 @@
 {
   "name": "shohantheme",
   "displayName": "Shohan Theme",
-  "description": "A theme for developers to code peacefully",
+  "description": "A modern, clean theme for developers with multiple color variants and animation support",
   "publisher": "NahimHossainShohan",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.85.0"
   },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "light theme",
+    "clean",
+    "minimal",
+    "animations"
   ],
   "icon": "images/phenix.png",
   "repository": {
@@ -18,26 +30,81 @@
   "bugs": {
     "url": "https://github.com/NH-Shohan/ShohanTheme/issues"
   },
+  "extensionDependencies": [
+    "brandonkirbyson.vscode-animations",
+    "shalldie.background"
+  ],
   "contributes": {
     "themes": [
       {
-        "label": "ShohanTheme",
+        "label": "Shohan Theme Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/ShohanTheme-color-theme.json"
+      },
+      {
+        "label": "Shohan Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/ShohanTheme-light-color-theme.json"
+      },
+      {
+        "label": "Shohan Theme Ocean",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ShohanTheme-ocean-color-theme.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "shohanTheme.setupAnimations",
+        "title": "Shohan Theme: Setup Animations"
+      },
+      {
+        "command": "shohanTheme.setupBackground",
+        "title": "Shohan Theme: Setup Background"
+      },
+      {
+        "command": "shohanTheme.applyRecommendedSettings",
+        "title": "Shohan Theme: Apply Recommended Settings"
       }
     ],
     "configuration": {
-      "editor.fontFamily": {
-        "type": "string",
-        "default": "Cascadia Code, Operator Mono, Fira Code",
-        "description": "The font family for the editor."
-      },
-      "editor.fontSize": {
-        "type": "number",
-        "default": 18,
-        "description": "The font size for the editor."
+      "title": "Shohan Theme",
+      "properties": {
+        "shohanTheme.enableAnimations": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable animations for a smoother experience"
+        },
+        "shohanTheme.backgroundOpacity": {
+          "type": "number",
+          "default": 0.03,
+          "minimum": 0.01,
+          "maximum": 0.2,
+          "description": "Controls the opacity of the background image (if enabled)"
+        },
+        "shohanTheme.enableBackgroundImage": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable subtle background image"
+        },
+        "editor.fontFamily": {
+          "type": "string",
+          "default": "Operator Mono, Cascadia Code, Fira Code",
+          "description": "The font family for the editor."
+        },
+        "editor.fontSize": {
+          "type": "number",
+          "default": 18,
+          "description": "The font size for the editor."
+        }
       }
     }
   },
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0"
+  }
 }

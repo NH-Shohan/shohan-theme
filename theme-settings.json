@@ -1,0 +1,79 @@
+{
+  "editor.fontFamily": "Operator Mono, Cascadia Code, Fira Code Light",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "300",
+  "editor.lineHeight": 1.8,
+  "editor.fontSize": 18,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "none",
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.size": "fit",
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.stickyScroll.enabled": true,
+  "editor.hover.enabled": false,
+  "editor.mouseWheelZoom": false,
+  "editor.accessibilitySupport": "off",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "editor.cursorWidth": 1,
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorSurroundingLinesStyle": "all",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.orientation": "vertical",
+  "workbench.tree.indent": 20,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.tabSizingFixedMinWidth": 40,
+  "breadcrumbs.enabled": false,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.fontFamily": "Operator Mono, Cascadia Code, Fira Code Light",
+
+  "background.enabled": true,
+  "background.editor": {
+    "useFront": false,
+    "style": {
+      "content": "''",
+      "pointer-events": "none",
+      "z-index": "99999",
+      "width": "70%",
+      "height": "75vh",
+      "left": "15%",
+      "background-position": "center",
+      "background-size": "cover",
+      "background-repeat": "no-repeat",
+      "opacity": 0.03
+    },
+    "images": ["https://i.ibb.co/vZhHQ69/phenix.png"]
+  },
+
+  "animations.Enabled": true,
+  "animations.CursorAnimation": true,
+  "animations.Scrolling": "Slide",
+  "animations.Command-Palette": "Slide",
+  "animations.CursorAnimationOptions": {
+    "TrailLength": 5,
+    "CursorStyle": "block",
+    "Color": "#5A67D880"
+  },
+  "animations.Auto-Install": true,
+  "animations.Smooth-Mode": true,
+  "animations.Tabs": "Slide",
+  "animations.Active": "Scale",
+
+  "shohanTheme.enableAnimations": true,
+  "shohanTheme.enableBackgroundImage": true,
+  "shohanTheme.backgroundOpacity": 0.03
+}
