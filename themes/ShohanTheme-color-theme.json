@@ -772,6 +772,7 @@
     "background-repeat": "no-repeat",
     "opacity": 0.01
   },
+  "editor.fontFamily": "Operator Mono,Cascadia Code,Fira Code Light",
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "none",
   "editor.overviewRulerBorder": false,

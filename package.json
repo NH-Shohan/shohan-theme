@@ -3,7 +3,7 @@
   "displayName": "Shohan Theme",
   "description": "A modern, clean theme for developers with multiple color variants and animation support",
   "publisher": "NahimHossainShohan",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.85.0"
   },

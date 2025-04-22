@@ -190,7 +190,7 @@
 
     /* Git */
     "gitDecoration.addedResourceForeground": "#B2CCD6",
-    "gitDecoration.modifiedResourceForeground": "#80CBC4",
+    "gitDecoration.modifiedResourceForeground": "#FFCB6B",
     "gitDecoration.deletedResourceForeground": "#F07178",
     "gitDecoration.untrackedResourceForeground": "#64B5F6",
     "gitDecoration.ignoredResourceForeground": "#6a8096",
@@ -327,14 +327,14 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#464B5D",
-        "fontStyle": "italic"
+        "foreground": "#6A9956",
+        // "fontStyle": "italic"
       }
     },
     {
       "scope": "comment punctuation.definition.comment, string.quoted.docstring",
       "settings": {
-        "foreground": "#464B5D",
+        "foreground": "#6A9956",
         "fontStyle": "italic"
       }
     },
@@ -542,7 +542,7 @@
     {
       "scope": "source.cs meta.preprocessor",
       "settings": {
-        "foreground": "#464B5D"
+        "foreground": "#6A9956"
       }
     },
     {
@@ -798,6 +798,7 @@
     "background-repeat": "no-repeat",
     "opacity": 0.01
   },
+  "editor.fontFamily": "Operator Mono,Cascadia Code,Fira Code Light",
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "none",
   "editor.overviewRulerBorder": false,
